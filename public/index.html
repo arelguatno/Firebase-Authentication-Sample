@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Firebase Authentication</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,500" rel="stylesheet">
+  <script src="https://www.gstatic.com/firebasejs/5.7.3/firebase.js"></script>
+</head>
+
+<body>
+
+  <div class="container">
+    <h2>Authentication Web App</h2><br />
+
+    <p>Email and Password: </p>
+
+    <input id="txtEmail" type="email" placeholder="Email">
+    <input id="txtPassword" type="password" placeholder="Password">
+
+    <button id="btnLogin">Log in </button>
+    <button id="btnSignup">Sign up </button>
+
+    <br /><br /><br /><button id="btnLogInGoogle"> Login as Google </button>
+    <br /><br /><button id="btnLogInFacebook"> Login as Facebook </button>
+    <br /><br /><button id="btnLogInTwitter"> Login as Twitter </button>
+    <br /><br /><button id="btnLogInGithub"> Login as Github </button>
+    <br /><br /><button id="btnAnonymous"> Login as Anonymous </button>
+    <br /><br /><button id="btnResetPassword"> Reset Password </button>
+    <br /><br /><button id="btnVerifyEmail"> Verify Email </button>
+
+    <br /><br /><p>Custom Auth </p>
+    <input id="txtToken" type="token" placeholder="Custom token">
+    <button id="btnCustomAuth">Log Custom Auth </button>
+
+  </div>
+
+  <script type="text/javascript" src="index_script.js"> </script>
+
+</body>
+
+</html>
